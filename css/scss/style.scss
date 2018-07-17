@@ -75,10 +75,12 @@ body {
             padding: 0.40em;
         }
         article {
+            position: relative;
             background-color: white;
             box-shadow: 1px 10px 15px lightgrey;
             border-radius: 3px;
-
+            img.img-fluid.sold-out {
+            }
             div.article-div {
                 padding: 0.8em 0.5em 0.2em 0.5em;
 
@@ -99,6 +101,17 @@ body {
 
                 h3.gy {
                     color: $gy;
+                    &::before {
+                      position: absolute;
+                      content:"";
+                      height: 292px;
+                      width: 2px;
+                      background-color: red;
+                      z-index: 10;
+                      top: -28px;
+                      right: 90px;
+                      transform: rotate(-37deg);
+                    }
                 }
 
                 h4 {
