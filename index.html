@@ -11,17 +11,34 @@
   </head>
   <body>
     <header>
-      <nav>
-        <ul>
-          <li>Menu 01</li>
-          <li>Menu 01</li>
-          <li>Menu 01</li>
-          <li>Menu 01</li>
-        </ul>
-      </nav>
+        <nav class="navbar navbar-expand-lg">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Catalog<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Stores</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Blog</a>
+        </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+    <i class="fab fa-accessible-icon"></i>
+  </form>
+    </div>
+  </nav>
       <h1>SUNDAYS</h1>
       <h2>We craft ocean friendly apparel</h2>
-      <a href="#">BROWSE OUR PRODUCTS</a>
+      <a class="btn" href="#">BROWSE OUR PRODUCTS</a>
       <a href="#">flèche</a>
     </header>
     <main>
@@ -100,12 +117,10 @@
           </div>
           <div class="col-12 col-md-3">
             <h3>Newsletter</h3>
-            <div class="input-group mb-3">
-              <input type="text" class="form-control" placeholder="Your email..." aria-label="Your email..." aria-describedby="basic-addon2">
-              <div class="input-group-append">
-                <button class="btn border-primary" type="button">OK</button>
-              </div>
-            </div>
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
           </div>
           <div class="col-12 col-md-3">
             <h3>Follow us</h3>

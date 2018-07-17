@@ -1,3 +1,28 @@
-body {
-  
+header {
+    background-color: #281400;
+    text-align: center;
+
+    h1,
+    h2 {
+        color: white;
+    }
+
+    nav{
+        a{
+            color: white;
+        }
+        ul{
+            justify-content: center;
+            width: 100%;
+        }
+    }
+    .btn{
+        background-color: #a28f61;
+        color: white;
+    }
+
+}
+
+footer {
+    background-color: #0f3e57;
 }
