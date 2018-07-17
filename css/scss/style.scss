@@ -1,63 +1,99 @@
-$pp : #ffd500;
-$kk : #a28f61;
-$gy : #8d9198;
+$pp: #ffd500;
+$kk: #a28f61;
+$gy: #8d9198;
 
 body {
-  background-color: #eeeeee;
-header {
-    background-color: #281400;
-    text-align: center;
+    background-color: #eeeeee;
 
-    h1,
-    h2 {
-        color: white;
-    }
+    header {
+        background-color: #281400;
+        text-align: center;
 
-    nav{
-        a{
+        h1,
+        h2 {
+            font-family: 'Merriweather', serif;
+            font-weight: bold;
             color: white;
         }
-        ul{
-            justify-content: center;
-            width: 100%;
+
+        nav {
+            a {
+                color: white;
+            }
+
+            ul {
+                justify-content: center;
+                width: 100%;
+            }
+        }
+
+        .btn {
+            background-color: #a28f61;
+            color: white;
         }
     }
-    .btn{
-        background-color: #a28f61;
+
+    main {
+        h2 {
+            font-family: 'Merriweather', serif;
+            font-weight: lighter;
+            text-align: center;
+        }
+
+        article {
+            background-color: white;
+
+            div.article-div {
+                padding: 1em;
+
+                h3 {
+                    font-size: 1em;
+                    font-weight: bold;
+                }
+
+                h3.kk {
+                    color: $kk;
+                }
+
+                h3.pp {
+                    color: $pp;
+                }
+
+                h3.gy {
+                    color: $gy;
+                }
+
+                h4 {
+                    font-size: 1em;
+                }
+            }
+        }
+    }
+
+    footer {
+        background-color: #0f3e57;
+    }
+
+    .titleFooter {
+        font-family: 'Merriweather', serif;
+        font-weight: lighter;
         color: white;
+        font-size: 1.5em;
     }
 
-}
+    ul{
+        padding-left: 0;
+        li{
+            list-style: none;
+            i{
+                color: grey;
+                padding-right: 1em; 
+            }
+            a{
+                color: grey;
+            }
+        }
 
-main {
-  h2 {
-    text-align: center;
-  }
-  article {
-    background-color: white;
-    div.article-div {
-      padding: 1em;
-      h3 {
-        font-size: 1em;
-        font-weight: bold;
-      }
-      h3.kk {
-        color: $kk;
-      }
-      h3.pp {
-        color: $pp;
-      }
-      h3.grey {
-        color: $gy;
-      }
-      h4 {
-        font-size: 1em;
-      }
     }
-  }
-}
 
-footer {
-    background-color: #0f3e57;
-}
 }
