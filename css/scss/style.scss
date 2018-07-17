@@ -72,28 +72,34 @@ body {
 
     footer {
         background-color: #0f3e57;
-    }
-
-    .titleFooter {
-        font-family: 'Merriweather', serif;
-        font-weight: lighter;
-        color: white;
-        font-size: 1.5em;
-    }
-
-    ul{
-        padding-left: 0;
-        li{
-            list-style: none;
-            i{
-                color: grey;
-                padding-right: 1em; 
-            }
-            a{
-                color: grey;
-            }
+        h3 {
+          font-family: 'Merriweather', serif;
+          font-weight: lighter;
+          color: white;
+          font-size: 1.5em;
         }
 
-    }
+        ul{
+          padding-left: 0;
+          li{
+            list-style: none;
+            i{
+              color: grey;
+              padding-right: 1em;
+            }
+            a{
+              color: grey;
+            }
+          }
 
+        }
+        form {
+          input {
+            width: 70%;
+          }
+          button {
+            width: 30%;
+          }
+        }
+    }
 }
