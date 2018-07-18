@@ -85,7 +85,7 @@ var catalog = [
   price :180.00},
 
   {picture :"https://picsum.photos/300/400/?random",
-  statut :"ON SALE",
+  statut :"SOLD OUT",
   name :"Winter Scarf",
   price :120.00}
 ]
