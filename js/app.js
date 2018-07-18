@@ -36,7 +36,7 @@ $(document).ready(function(){
           <h2>${catalog[productId].name}</h2>
         </div>
         <div class="col-12 col-md-6 product-image">
-          <img class="img-fluid" src="${catalog[productId].picture}" alt="">
+          <img class="" src="${catalog[productId].picture}" alt="">
         </div>
         <div class="col-12 col-md-6 product-detail">
           <h3>${catalog[productId].statut}</h3>
