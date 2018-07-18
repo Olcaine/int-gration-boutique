@@ -2,11 +2,29 @@ $pp: #ffd500;
 $kk: #a28f61;
 $gy: #8d9198;
 
-body.indexBoutique {
+body.product{
+  div.product-detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    div.product-title {
+      h2 {
+        text-align: center;
+      }
+    }
+    div.col-12.col-md-6.product-image {
+      display: flex;
+      justify-content: center;
+    }
+  }
+}
+
+body{
     background-color: #eeeeee;
 
     header {
-      position: relative;
+        position: relative;
         background-color: #281400;
         text-align: center;
 
@@ -174,7 +192,7 @@ body.indexBoutique {
     header {
       position: relative;
       div.title {
-        padding: 12em 0;
+        // padding: 12em 0;
         h1, h2, a {
           margin: 0.7em;
         }
@@ -191,5 +209,12 @@ body.indexBoutique {
       }
     }
 
+  }
+  body.index {
+    header {
+      div.title {
+        padding: 12em 0;
+      }
+    }
   }
 }
